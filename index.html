@@ -251,7 +251,7 @@
     clearInterval(autoNavigateInterval);
     autoNavigateInterval = setInterval(() => {
       navigate(1);
-    }, Math.floor(Math.random() * (40000 - 30000 + 1) + 30000));
+    }, Math.floor(Math.random() * (40000 - 30000 + 1) + 10000));
   } // <-- Missing closing brace added here
 
   function navigate(direction) {
